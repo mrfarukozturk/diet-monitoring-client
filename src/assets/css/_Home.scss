@@ -1,0 +1,33 @@
+hr.title-line {
+    border: 0px solid rgba(0, 128, 0, 0.55);
+    height: 5px;
+    background-image: linear-gradient(270deg, #007965 -23.46%, #008A72 48.15%, #00AF91 119.75%);
+    border-radius: 5px;
+    width: 65px;
+    opacity: 100;
+    margin-bottom: 0px;
+  }
+  
+  .content-image-box {
+    position: relative;
+    z-index: 0;
+    margin: 20px 0;
+    
+    &::before{
+    transform: perspective( 900px ) rotateY( -30deg );
+    background: linear-gradient(289.57deg, #007965 19.37%, #00D0AD 50.18%, #00AF91 85.84%);
+    border-radius: 71.872px;
+    content: '';  
+    width: 100%;
+    height: 110%;
+    left: 0px;
+    top:0px;
+    z-index: -1;
+    position:absolute;
+    }
+    img{
+      width: 70%;
+    }
+
+
+  }

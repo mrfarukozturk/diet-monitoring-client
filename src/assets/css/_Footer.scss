@@ -1,0 +1,22 @@
+footer {
+  margin-top: auto;
+  background-color: #007965;
+  color: #FFFFFF !important;
+  
+
+  .menu {
+    border-bottom: 1px solid #00AF91 !important;
+
+    a {
+      color: #FFFFFF !important;
+      margin-bottom: 1px;
+
+      &:hover{
+        /*color: #c22323 !important;*/
+        margin-bottom: -1px;
+        border-bottom: 2px solid #ffffff !important
+      }
+    }
+  }
+}
+

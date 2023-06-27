@@ -1,0 +1,273 @@
+.client-profile-box {
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin: 20px auto;
+  padding: 20px 50px;
+
+
+
+  .tab-content{
+    margin-top: 25px;
+
+    .add-dietician{
+      border-radius: 50%!important;
+      padding: 5px !important;
+      height: 30px;
+      width: 30px;
+      color: #7a869a;
+      background: #f4f5f7;
+
+      &:hover {
+        background: #cccccc;
+        
+      }
+
+    }
+  }
+  .tab-menu{
+    li {
+      
+      a{
+        padding: 0 8px !important;
+        position: relative;
+        bottom: -1px !important;
+        color: #000000;
+        text-decoration: none;
+
+        &:hover{
+          border-bottom: 2px solid #00AF91;
+        }
+
+
+      } 
+      .active {
+        border-bottom: 2px solid #00AF91;
+      }
+
+
+    }
+  }
+  .client-tabs {
+    border: none;
+    padding: 0px;
+    //background: #F0F0F0;
+    margin-top: 20px;
+    .card-header {
+      border: none;
+      background: #00AF91;
+      color: #FFFFFF;
+      border-radius: 3px;
+    }
+
+
+  }
+
+
+  .name-box {
+    .user-info {
+      margin-left: 30px !important;
+      .role-name {
+        color: #007965;
+        text-transform: capitalize;
+
+      }
+    }
+    .profile-image {
+      //border: 1px solid #000000;
+      border-radius: 60px;
+      min-height: 120px;
+      min-width: 120px;
+      box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.50);
+    }
+
+  }
+ 
+}
+.measurements {
+  table {
+    width: 100%;
+    table-layout:fixed;
+    .new-measurements{
+      cursor: pointer !important;
+      color: #00AF91 !important;
+    }
+
+    .create-form {
+      td {
+        //padding: 0px;
+        //height: 100px;
+        //background: #00af926c;
+
+      }
+
+      input {
+        width: 100%;
+        height: 100%;
+        //background: #00af926c;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        //margin: 2px;
+        outline: 0;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        transform: scale(0.9);
+        padding: 3px;
+        //position: static;
+
+        &:focus {
+          transform: scale(1.1);
+          border: 1px solid #00af92!important;
+          background: #7ff8e4;
+          box-shadow: 0px 4px 15px 1px rgba(0, 175, 146, 0.50);
+          
+        }
+      }
+
+    }
+    thead {
+      td {
+        font-weight: bold;
+      }
+    }
+
+    tbody {
+      td {
+        height: 46px;
+      }
+    }   
+
+    tr {
+      td{
+        border-right: 1px solid #aeaeae;
+        &:first-child {
+          width: 140px !important;
+        }
+
+        &:last-child {
+          border-right: 0px;
+          width: 40px !important;
+        }
+      }
+
+    }
+  }
+}
+.meals {
+  .add-meal-button {
+    background: #00AF91;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    border: 0px;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin-right: 10px;
+    
+  }
+
+
+  .meal-card {
+    padding: 0px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.06);
+
+    .card-footer {
+      border: 0px;
+      background:#F0F0F0;
+
+      .date-circle {
+        //border: 1px solid #000000;
+        border-radius: 23px;
+        height: 46px;
+        width: 46px;
+        box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.50);
+        line-height: 16px; 
+        font-weight: 600;
+        line-height: 14px;
+        background: #FFFFFF;
+
+        h6{
+          margin: 0px;
+        font-size: 14px;
+
+
+        }
+      }
+
+      .sender-text {
+        font-size: 14px;
+        color: #007965;
+      }
+
+      .date-text {
+        font-size: 12px;
+        color: #007965;
+      }
+    }
+  }
+}
+
+
+.consultations {
+
+  .yellow-button {
+    background: #FFCC29;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    border: 0px;
+    color: #000000;
+    padding: 5px 20px;
+    margin-right: 10px;
+    
+  }
+
+
+  .cancel-button {
+    background: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    border: 0px;
+    color: #000000;
+    padding: 5px 20px;
+    margin-right: 10px;
+    
+  }
+  
+  .consultation-card {
+    padding: 0px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.06);
+    
+    .card-footer {
+      border: 0px;
+      background: #FBF9FE;
+
+      .client-profile-image {
+        //border: 1px solid #000000;
+        border-radius: 14px;
+        height: 28px;
+        width: 28px;
+        box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.50);
+      
+      }
+
+      .sender-text {
+        font-size: 14px;
+        color: #007965;
+      }
+
+      .date-text {
+        font-size: 12px;
+        color: #007965;
+      }
+    }
+  }
+}
