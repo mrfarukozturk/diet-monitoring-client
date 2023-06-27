@@ -1,0 +1,142 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F0F0;
+}
+
+@import "Header";
+
+
+
+main {
+  //margin: auto 0;
+  height: auto;
+
+
+  .main-content{
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    .home {
+      @import "Home";
+    }
+    .contact {
+      @import "Contact";
+    }    
+
+  }
+  @import "DieticianProfile";
+
+  @import "ClientProfile";
+
+}
+@import "Breadcrumb";
+
+@import "Footer";
+@import "Loading";
+.hover-yellow {
+
+
+  &:hover {
+    color:#FFCC29;
+    cursor: pointer;
+  }
+
+}
+.classic-button {
+  background: #00AF91;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  border: 0px;
+  color: #ffffff;
+  padding: 5px 20px;
+  margin-right: 10px;
+  display:inline-flex;
+
+  &:hover {
+    background: #FFCC29;
+  }
+  &:active {
+    background: #FFCC29 !important;
+  }
+  
+}
+
+.classic-cancel-button {
+  background: none;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  border: 1px solid #FFCC29;
+  color: #717171;
+  padding: 5px 20px;
+  margin-right: 10px;
+  &:hover {
+    background: #FFCC29;
+  }
+  &:active {
+    background: #FFCC29 !important;
+  }
+  
+}
+
+
+
+.user-profile-image-mini {
+  //border: 1px solid #000000;
+  border-radius: 14px;
+  height: 28px;
+  width: 28px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.50);
+  cursor: pointer;
+
+}
+
+.fa-solid {
+  display:inline-flex;
+
+  svg {
+    height: 1em;
+  }
+}
+
+.fa-regular {
+  display:inline-flex;
+
+  svg {
+    height: 1em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .name-box {
+    border-right: 1px solid #00AF91;
+    border-bottom: 0px;
+  }
+  
+}
+/* Notebook ve Mobil Cihazlar İçin */
+@media only screen and (max-width: 992px) {
+
+  
+}
+/* Tablet ve Mobil Cihazlar İçin */
+@media only screen and (max-width: 768px) {
+  .name-box {
+    border-right: 0px solid #00AF91;
+    border-bottom: 1px solid #00AF91;
+  }
+}
+/* Tablet ve Mobil Cihazlar İçin */
+@media only screen and (max-width: 600px) {
+
+  
+}
+/* Sadece Mobil Cihazlar İçin */
+@media only screen and (max-width: 480px) {
+
+  
+}

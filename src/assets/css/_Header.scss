@@ -1,0 +1,73 @@
+header {
+
+  .profile-image {
+    //border: 1px solid #000000;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(56, 52, 52, 0.243);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.50);
+  }
+  a {
+    .profile-image {
+      -webkit-transition: 0.2s;
+      transition: 0.2s;
+      &:hover{
+        border: 1px solid rgba(56, 52, 52, 0.46);
+
+      }
+    }
+  }
+  .nav-style {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #00AF91;
+    padding: 10px !important;    
+  }
+  nav {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #00AF91;
+    padding: 10px !important;
+
+    .menu {
+      font-size: 20px;
+      margin-right: 40px;
+
+      a{
+        color: #000000 !important;
+        height: 46px;
+        &:hover{
+          border-bottom: 1px solid #007965;
+        }
+      }
+    }
+
+    .h-login-button {
+      border: 1px solid #007965;
+      color: #007965;
+      background-color: #FFFFFF;
+      border-radius: 40px;
+      font-size: 20px;
+      padding: 2px 30px;
+      font-family:Arial, Helvetica, sans-serif;
+
+      &:hover {
+        color: #ffffff;
+        background-color: #007965;
+        border-radius: 20px;
+      }
+    }
+  }
+  .logout-button {
+    color: #000000;
+    cursor: pointer;
+    display: inline;
+
+
+  }
+  .user-name{
+    line-height: 0.2 !important;
+    white-space: nowrap;
+    float: left;
+
+  }
+}
